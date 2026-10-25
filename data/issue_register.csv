@@ -1,0 +1,6 @@
+Issue ID,Short Description,Source,Category,Risk Rating,Policy,Risk,Control,RCA Category,State,Issue Owner,Due Date
+GRC-ISS-0001,Delayed removal of terminated-user access,Complaint,Access Management,High,Access Control Policy,Unauthorized access due to delayed termination,Access removal SLA,Process Gap,Remediation In Progress,IAM Team,2026-09-30
+GRC-ISS-0002,Critical server patch exceeded SLA,Monitoring,Patch Management,High,Vulnerability Management Policy,Exploitation of known vulnerability,Critical patch remediation,Process Gap,Pending Validation,Infrastructure Team,2026-09-10
+GRC-ISS-0003,Backup restoration evidence unavailable,Audit,Backup & Recovery,Medium,Backup Policy,Data recovery may not be demonstrated,Backup restoration testing,Control Operating Effectiveness Gap,Under Review,Backup Team,2026-10-15
+GRC-ISS-0004,Third-party security assessment expired,Assessment,Third Party Risk,Medium,Third Party Security Policy,Supplier risk may be inadequately assessed,Annual vendor assessment,Process Gap,New,Vendor Risk Team,2026-10-30
+GRC-ISS-0005,Sensitive data stored outside approved location,Complaint,Data Protection,Critical,Data Protection Policy,Unauthorized disclosure of sensitive information,Approved data storage control,Control Design Gap,Remediation In Progress,Data Security Team,2026-09-05

@@ -1,0 +1,6 @@
+Task ID,Issue ID,Task,Owner,Priority,Due Date,State,Expected Evidence
+TASK-001,GRC-ISS-0001,Implement HR-to-IAM termination integration,IAM Team,High,2026-09-30,In Progress,IAM configuration + test evidence
+TASK-002,GRC-ISS-0001,Update application onboarding checklist,GRC Team,Medium,2026-09-15,Open,Approved revised checklist
+TASK-003,GRC-ISS-0002,Apply critical patch and capture evidence,Infrastructure Team,High,2026-09-10,Pending Validation,Patch report + vulnerability scan
+TASK-004,GRC-ISS-0003,Perform backup restoration test,Backup Team,Medium,2026-10-15,Open,Restore test report
+TASK-005,GRC-ISS-0005,Move sensitive data to approved storage,Data Security Team,Critical,2026-09-05,In Progress,Migration report + validation evidence
