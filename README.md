@@ -47,3 +47,61 @@ The issue is mapped to:
 ## Skills Demonstrated
 
 ServiceNow GRC | Issue Management | Complaint Management | Risk Management | Control Management | Policy & Compliance | RCA | Remediation | Control Testing | Evidence Management | Audit Readiness | GRC Reporting | Compliance Management
+
+## Project Documentation
+
+This project covers the complete issue lifecycle, from intake through validated closure:
+
+1. Complaint or observation is raised and an issue is created.
+2. The issue is triaged, and its validity, risk, and impact are assessed.
+3. The issue is mapped to relevant policies, risks, and controls.
+4. The root cause is investigated and corrective actions are assigned.
+5. Remediation evidence is collected and independently validated.
+6. Closure is approved and recorded in the audit trail.
+
+### Scope and Success Criteria
+
+The process includes issue creation, triage, risk assessment, governance-object mapping, root cause analysis, remediation, evidence collection, validation, closure, and reporting.
+
+- Every issue has an owner.
+- High-risk issues receive risk-owner review.
+- Remediation has an owner and due date.
+- Evidence is required before remediation is completed.
+- Closure requires successful validation.
+- The full lifecycle is recorded in an audit trail.
+
+### Exception Paths
+
+- **Invalid issue:** `New → Rejected → Closed`
+- **Failed validation:** `Pending Validation → Failed → Remediation In Progress`
+- **Overdue remediation:** `Remediation In Progress → Overdue → Escalation`
+
+### Root Cause and Remediation Example
+
+For delayed removal of terminated-user access, a 5 Whys analysis identifies a process and control design gap: application onboarding did not require IAM integration or access-lifecycle controls.
+
+Corrective and preventive actions include:
+
+- Make IAM integration a mandatory onboarding requirement.
+- Integrate HR termination events with IAM.
+- Perform a one-time access recertification.
+- Update the onboarding procedure and checklist.
+- Add an approval gate and test the revised control.
+
+Supporting evidence may include the updated procedure, IAM configuration, test records, access-removal logs, approvals, and the recertification report.
+
+### Control Validation
+
+To validate that terminated-user access is removed within the approved SLA:
+
+1. Obtain the population of terminated users and select a sample.
+2. Compare termination timestamps with access-removal timestamps.
+3. Record exceptions and conclude whether the control passed or failed.
+4. Confirm remediation is implemented, evidence is authentic and relevant, and the control operates as intended before closure.
+
+The detailed documentation is available here:
+
+- [Project overview](docs/01-project-overview.md)
+- [Process flow and RACI](docs/02-process-flow.md)
+- [Root cause analysis and remediation](docs/03-rca-and-remediation.md)
+- [Control validation](docs/04-control-validation.md)
