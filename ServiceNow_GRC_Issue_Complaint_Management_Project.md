@@ -53,13 +53,13 @@ This sample project defines a controlled process to intake complaints and compli
 
 The images below are purpose-built illustrative mockups, not screenshots from a live ServiceNow tenant. Replace them with screenshots from your own licensed instance after implementation, and redact personal or confidential data.
 
-![Illustrative ServiceNow GRC UI mockup 1](images/issue-management-ui-1.png)
+![Illustrative ServiceNow GRC UI mockup 1](docs/images/issue-management-ui-1.png)
 
-![Illustrative ServiceNow GRC UI mockup 2](images/issue-management-ui-2.png)
+![Illustrative ServiceNow GRC UI mockup 2](docs/images/issue-management-ui-2.png)
 
-![Illustrative ServiceNow GRC UI mockup 3](images/issue-management-ui-3.png)
+![Illustrative ServiceNow GRC UI mockup 3](docs/images/issue-management-ui-3.png)
 
-![Illustrative ServiceNow GRC UI mockup 4](images/issue-management-ui-4.png)
+![Illustrative ServiceNow GRC UI mockup 4](docs/images/issue-management-ui-4.png)
 
 ## Automation requirements (illustrative)
 
