@@ -101,6 +101,7 @@ To validate that terminated-user access is removed within the approved SLA:
 
 The detailed documentation is available here:
 
+- [Complete project blueprint](docs/ServiceNow_GRC_Issue_Complaint_Management_Project.md)
 - [Project overview](docs/01-project-overview.md)
 - [Process flow and RACI](docs/02-process-flow.md)
 - [Root cause analysis and remediation](docs/03-rca-and-remediation.md)
