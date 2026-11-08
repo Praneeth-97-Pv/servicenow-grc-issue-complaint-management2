@@ -18,7 +18,7 @@
 ## Exception Paths
 
 ### Invalid Issue
-`New → Rejected → Closed`
+`New → Denied → Closed`
 
 ### Failed Validation
 `Pending Validation → Failed → Remediation In Progress`
